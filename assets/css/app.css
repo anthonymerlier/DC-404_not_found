@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+.space-mono-400 {
+  font-family: 'Space Mono', monospace;
+  font-weight: 400; }
+.space-mono-700 {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.inconsolata-700 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: -1.92px; }
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.055em; } }
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em; } }
+
+p {
+  margin: 1.7rem 0;
+  letter-spacing: -0.035em; }
+  @media screen and (min-width: 768px) {
+    p {
+      font-size: 24px;
+      line-height: 36px; } }
+  @media screen and (max-width: 768px) {
+    p {
+      font-size: 18px;
+      line-height: 27px; } }
+
+.footer p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #bdbdbd; }
+  .footer p .bold {
+    font-weight: 700 !important; }
+
+.btn-default {
+  width: 216px;
+  height: 68px;
+  background: #333333;
+  color: white;
+  border: 0;
+  cursor: pointer; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  position: relative;
+  height: 95vh;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto; }
+  @media screen and (min-width: 768px) {
+    .container {
+      display: flex;
+      justify-content: space-between; } }
+
+.bloc {
+  padding: 0 1rem;
+  margin: 60px 0; }
+  @media screen and (min-width: 768px) {
+    .bloc {
+      width: 45%; } }
+  @media screen and (max-width: 768px) {
+    .bloc {
+      width: 90%; } }
+  .bloc img {
+    width: 100%;
+    padding-top: 2rem;
+    max-width: 540px; }
+  @media screen and (min-width: 768px) {
+    .bloc h1 {
+      max-width: 586px; } }
+  @media screen and (max-width: 768px) {
+    .bloc h1 {
+      max-width: 351px; } }
+  @media screen and (min-width: 768px) {
+    .bloc p {
+      max-width: 381px; } }
+  @media screen and (max-width: 768px) {
+    .bloc p {
+      max-width: 328px; } }
+
+h2 {
+  padding-top: 1rem;
+  padding-left: 2rem; }
+
+.footer {
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    .footer {
+      position: absolute;
+      bottom: 0;
+      margin: 0; } }
+  .footer p {
+    text-align: center;
+    margin: 0; }
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+$fontsize: 24;
+
+@mixin space-mono {
+    font-family: 'Space Mono', monospace;
+}
+
+@mixin inconsolata {
+    font-family: 'Inconsolata', monospace;
+}
+
+.space-mono {
+
+    &-400 {
+        @include space-mono;
+        font-weight: 400;
+    }
+    &-700 {
+        @include space-mono;
+        font-weight: 700;
+    }
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.inconsolata {
+    &-700 {
+        @include inconsolata;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: $fontsize + px;
+        letter-spacing: - $fontsize * 0.08 + px;
+    }
+}
+
+h1 {
+    @media screen and (min-width: 768px) {
+        font-size: 64px;
+        line-height:95px;
+        letter-spacing: -0.055em;
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 48px;
+        line-height:71px;
+        letter-spacing: -0.035em;
+    }
+}
+
+p {
+    @media screen and (min-width: 768px) {
+        font-size: $fontsize + px;
+        line-height: 36px;
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    margin: 1.7rem 0;
+    letter-spacing: -0.035em;
+}
+
+.footer {
+    p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #bdbdbd;
+        .bold {
+            font-weight: 700 !important;
+        }
+    }
+}

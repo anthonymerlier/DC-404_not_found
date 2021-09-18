@@ -1,0 +1,24 @@
+{
+  "name": "404_not_found",
+  "version": "1.0.0",
+  "description": "<!-- Please update value in the {}  -->",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass -C lib/sass/main.scss:assets/css/app.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonymerlier/DC-404_not_found.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonymerlier/DC-404_not_found/issues"
+  },
+  "homepage": "https://github.com/anthonymerlier/DC-404_not_found#readme"
+}
